@@ -1,3 +1,14 @@
+/**
+ *
+ * Perlin noise and noise() vs. random()
+ *
+ * This sketch draws a circle that moves in two directions according to noise()
+ * function values.
+ *
+ * Reference: https://www.youtube.com/watch?v=YcdldZ1E9gU&list=PLRqwX-V7Uu6ZV4yEcW3uDwOgGXKUUsPOM&index=4
+ *
+ */
+
 var xoff = 0;
 var yoff = 1000;
 var doff = 2000;
