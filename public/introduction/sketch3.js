@@ -12,7 +12,6 @@ function setup() {
   pixelDensity(1);
   frameRate(30);
   createCanvas(100,100);
-
 }
 
 function draw() {

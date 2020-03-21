@@ -10,9 +10,12 @@ var start = 0;
 var dt = 0.01;
 
 function setup() {
+  pixelDensity(1);
   frameRate(30);
-  createCanvas(500,500);
+  createCanvas(innerWidth,innerHeight);
   background(0);
+  noiseSeed(100);
+  noiseDetail(4, 0.5);
 }
 
 function draw() {
