@@ -11,7 +11,7 @@ var dt = 0.01;
 
 function setup() {
   frameRate(30);
-  createCanvas(innerWidth,innerHeight);
+  createCanvas(500,500);
   background(0);
 }
 
