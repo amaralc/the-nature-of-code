@@ -1,6 +1,6 @@
 var xoff = 0;
-var yoff = 0;
-var doff = 0;
+var yoff = 1000;
+var doff = 2000;
 
 function setup() {
   createCanvas(innerWidth,innerHeight);
@@ -14,8 +14,8 @@ function draw() {
     map(noise(doff),0,1,20,50),
     map(noise(doff),0,1,20,50)
   );
-  xoff += 0.007;
-  yoff += 0.009;
-  doff += 0.011;
+  xoff += 0.005;
+  yoff += 0.005;
+  doff += 0.01;
 }
 
